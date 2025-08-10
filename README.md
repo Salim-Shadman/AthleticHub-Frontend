@@ -2,7 +2,7 @@
 
 AthleticHub is a modern and dynamic web application that serves as an online platform for athletes and event organizers. Users can discover, book, and even create and manage their own athletic events.
 
-**[Live Demo](https://athletic-e8d0b.web.app/)** | **[Backend Server](https://assignment-11-server-three-sage.vercel.app/)**
+**[Live Demo](https://athletic-e8d0b.web.app/)** | **[Backend Server](https://assignment-11-server-three-sage.vercel.app/)** |
  **[Backend Repo](https://assignment-11-server-three-sage.vercel.app)**
 
 ---
