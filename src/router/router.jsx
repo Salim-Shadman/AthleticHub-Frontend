@@ -1,6 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom';
 import RootLayout from '../layouts/RootLayout';
 import Home from '../pages/Home/Home';
+
+
 import Register from '../pages/Register/Register';
 import SignIn from '../pages/SignIn/SignIn';
 import Events from '../pages/Events/Events';
@@ -43,8 +45,11 @@ const router = createBrowserRouter([
                 element: <SignIn />,
             },
 
+
+
             {
                 path: 'events',
+
                 element: <Events />,
             },
 
@@ -58,8 +63,11 @@ const router = createBrowserRouter([
             // private routes start
             {
                 path: 'create-event',
+
                 element: <PrivateRoute><CreateEvent /></PrivateRoute>,
             },
+
+
 
             {
                 path: 'my-bookings',
@@ -67,13 +75,17 @@ const router = createBrowserRouter([
             },
 
             {
+
                 path: 'manage-events',
                 element: <PrivateRoute><ManageEvents /></PrivateRoute>,
             },
 
             {
+
                 path: 'update-event/:id',
                 element: <PrivateRoute><UpdateEvent /></PrivateRoute>,
+
+
             },
 
 
