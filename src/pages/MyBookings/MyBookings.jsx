@@ -116,7 +116,7 @@ const MyBookings = () => {
             <div className="flex justify-between items-center mb-8">
                 <h2 className="text-3xl font-bold">My Bookings</h2>
                 
-                {/* view mode */}
+                
 
                 <div className="btn-group">
 
@@ -142,7 +142,7 @@ const MyBookings = () => {
 
             ) : viewMode === 'card' ? (
 
-                // Card View for bookings
+                
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                     {bookings.map(booking => (
@@ -169,7 +169,7 @@ const MyBookings = () => {
             ) : (
 
 
-                // Table View for bookings
+               
                 <div className="overflow-x-auto">
 
                     <table className="table w-full">

@@ -88,7 +88,7 @@ const CreateEvent = () => {
                     
                     <form onSubmit={handleSubmit} className="space-y-6">
 
-                       {/* name er field */}
+                       
                         <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-4">
 
                             <label className="md:text-right font-semibold">Event Name</label>
@@ -105,7 +105,7 @@ const CreateEvent = () => {
 
 
 
-                        {/* event type er field */}
+                       
 
                         <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-4">
 
@@ -134,7 +134,7 @@ const CreateEvent = () => {
 
 
 
-                        {/* Date Field */}
+                       
 
                         <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-4">
 
@@ -153,8 +153,9 @@ const CreateEvent = () => {
 
 
                         
-                        {/* Location er Field */}
+                      
                         <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-4">
+
 
                               <label className="md:text-right font-semibold">Location</label>
 
@@ -171,7 +172,7 @@ const CreateEvent = () => {
                         </div>
 
 
-                        {/* Image URL er Field */}
+                       
                         <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-4">
 
                             <label className="md:text-right font-semibold">Image URL</label>
@@ -190,7 +191,9 @@ const CreateEvent = () => {
 
 
 
-                        {/* description er field */}
+                        
+
+
                         <div className="form-control">
 
 
@@ -208,7 +211,7 @@ const CreateEvent = () => {
 
 
 
-                        {/* Submit Button */}
+                       
                         <div className="form-control mt-8">
                             <button type="submit" className="btn btn-primary w-full max-w-xs mx-auto">Create Event</button>
                         </div>

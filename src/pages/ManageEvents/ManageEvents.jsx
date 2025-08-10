@@ -64,10 +64,10 @@ const ManageEvents = () => {
 
 
 
-   //event delete
+   
     const handleDelete = (id) => {
 
-        //confirmation
+        
         Swal.fire({
             title: 'Are you sure?',
             text: "You won't be able to revert this!",
@@ -113,7 +113,7 @@ const ManageEvents = () => {
 
 
 
-    //spinner
+  
     if (loading) {
         return <div className="flex justify-center items-center h-screen"><span className="loading loading-spinner loading-lg"></span></div>;
     }
