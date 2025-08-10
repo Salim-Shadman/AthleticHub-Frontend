@@ -2,7 +2,7 @@
 
 An athletic event booking platform designed to connect athletes and sports enthusiasts with local athletic events. 
 
-Live Site URL: [https://freelancer-489e7.web.app]
+Live Site URL: [https://athletic-e8d0b.web.app/]
 
 
 ---
